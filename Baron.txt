@@ -41,7 +41,6 @@ ACTOR BaronofHell2 : BaronofHell Replaces BaronofHell
 	Speed 6
 	PainChance 25
 	Tag "Baron of Hell"
-	DropItem "DemonRuneMix", 16
 	States
 	{
 
@@ -1367,7 +1366,6 @@ Actor BaronBoss1: BaronofHell2 3013
 	MaxDropOffHeight 38
 	Translation "16:47=22:47", "48:79=62:79"
 	Obituary "%o was brutalized by the Bruiser Brothers."
-	DropItem "64UnmakerUpgradeSpawner", 16
 	//$Category BD Bosses
 	//$Icon "monster"
 	//$Colour rgb(200, 0, 0)

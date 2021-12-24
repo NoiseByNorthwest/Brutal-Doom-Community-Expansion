@@ -27,7 +27,6 @@ ACTOR Mancubus : Fatso Replaces Fatso
 	Mass 1000
 	Speed 8
     BloodType "Brutal_Blood", "SawBlood", "SawBlood"
-	DropItem "DemonStrengthRune", 16
 	Obituary "%o was incinerated by a Mancubus."
     +DONTHARMSPECIES
 	DeathHeight 6

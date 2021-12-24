@@ -36,7 +36,7 @@ ACTOR Clip2 : Ammo
 	SpawnID 11
 	Inventory.PickupMessage "Picked up a Rifle Magazine."
 	Inventory.Amount 30
-	Inventory.MaxAmount 300
+	Inventory.MaxAmount 30000
 	Ammo.BackpackAmount 30
 	Ammo.BackpackMaxAmount 600
 	Inventory.Icon "CLIPA0"
@@ -123,7 +123,7 @@ ACTOR Clip1 : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Pistol Magazine."
 	Inventory.Amount 15
-	Inventory.MaxAmount 200
+	Inventory.MaxAmount 20000
 	Ammo.BackpackAmount 15
 	Ammo.BackpackMaxAmount 400
 	Inventory.Icon "CLIPC0"
@@ -178,7 +178,7 @@ ACTOR Mauser9mm : Ammo 2057
 	Game Doom
 	Inventory.PickupMessage "Picked up a Mauser 9mm Magazine for the MP40."
 	Inventory.Amount 32
-	Inventory.MaxAmount 200
+	Inventory.MaxAmount 20000
 	Ammo.BackpackAmount 32
 	Ammo.BackpackMaxAmount 400
 	Inventory.Icon "CLIPB0"
@@ -379,7 +379,7 @@ ACTOR BuzzSawAmmo : Ammo 2108
 	Inventory.PickupMessage "Picked up a belt of MG42 ammo."
 	Inventory.PickupSound "CBOXPICK"
 	Inventory.Amount 50
-	Inventory.MaxAmount 300
+	Inventory.MaxAmount 30000
 	Ammo.BackpackAmount 50
 	Ammo.BackpackMaxAmount 600
 	Inventory.Icon "HBUSE0"
@@ -439,7 +439,7 @@ ACTOR AmmoRocket : Ammo 2020
 	SpawnID 140
 	Inventory.PickupMessage "$GOTROCKET"
 	Inventory.Amount 1
-	Inventory.MaxAmount 50
+	Inventory.MaxAmount 5000
 	Ammo.BackpackAmount 1
 	Ammo.BackpackMaxAmount 100
 	Inventory.Icon "ROCKA0"
@@ -618,7 +618,7 @@ ACTOR AmmoCell : Ammo Replaces Cell
 	SpawnID 75
 	Inventory.PickupMessage "$GOTCELL"
 	Inventory.Amount 20
-	Inventory.MaxAmount 300
+	Inventory.MaxAmount 30000
 	Ammo.BackpackAmount 20
 	Ammo.BackpackMaxAmount 600
 	Inventory.Icon "CELLA0"
@@ -693,7 +693,7 @@ ACTOR FakeCellPackSprite: BasicAmmoPickup
 ACTOR Gas : Ammo
 {
    Inventory.Amount 50
-   Inventory.MaxAmount 300
+   Inventory.MaxAmount 30000
    Ammo.BackpackAmount 50
    Ammo.BackpackMaxAmount 600
    Inventory.Icon "GSLNA0"
@@ -769,7 +769,7 @@ ACTOR Nuke : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a nuclear missile."
 	Inventory.Amount 1
-	Inventory.MaxAmount 1
+	Inventory.MaxAmount 1000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 2
 	Inventory.Icon "NKLAA0"
@@ -881,7 +881,7 @@ ACTOR AmmoShell : Ammo 2038
 	SpawnID 12
 	Inventory.PickupMessage "$GOTSHELLS"
 	Inventory.Amount 4
-	Inventory.MaxAmount 50
+	Inventory.MaxAmount 5000
 	Ammo.BackpackAmount 4
 	Ammo.BackpackMaxAmount 100
 	Inventory.Icon "SHELA0"
@@ -905,7 +905,7 @@ ACTOR AmmoSlug : Ammo
 	Game Doom
 	Inventory.PickupMessage "$GOTSLUGS"
 	Inventory.Amount 4
-	Inventory.MaxAmount 50
+	Inventory.MaxAmount 5000
 	Ammo.BackpackAmount 4
 	Ammo.BackpackMaxAmount 100
 	Inventory.Icon "SHELB0"
@@ -1109,7 +1109,7 @@ ACTOR AmmoMagnum : Ammo
 	Inventory.PickupMessage "Picked up some magnum rounds."
 	Inventory.PickupSound "CBOXPICK"
 	Inventory.Amount 6
-	Inventory.MaxAmount 30
+	Inventory.MaxAmount 3000
 	Ammo.BackpackAmount 6
 	Ammo.BackpackMaxAmount 60
 	Inventory.Icon "MAGAA0"
@@ -1322,7 +1322,7 @@ ACTOR GrenadeAmmo : Ammo 2030
 	Game Doom
 	Inventory.PickupMessage "Picked up a Grenade."
 	Inventory.Amount 1
-	Inventory.MaxAmount 3
+	Inventory.MaxAmount 300
 	Ammo.BackpackAmount 1
 	Ammo.BackpackMaxAmount 6
 	Inventory.Icon "GRNDA"
@@ -1357,7 +1357,7 @@ ACTOR TankAmmo : Ammo
 {
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 10
-	Inventory.MaxAmount 100
+	Inventory.MaxAmount 10000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 100
 	Inventory.Icon "NULL"
@@ -1374,7 +1374,7 @@ ACTOR MechAmmo : Ammo
 
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 10
-	Inventory.MaxAmount 100
+	Inventory.MaxAmount 10000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 100
 	Inventory.Icon "NULL"
@@ -1391,7 +1391,7 @@ ACTOR HeavyMachinegunAmmo : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 200
-	Inventory.MaxAmount 2000
+	Inventory.MaxAmount 200000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 2000
 	Inventory.Icon "NULL"
@@ -1408,7 +1408,7 @@ ACTOR MechRocketAmmo : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 6
-	Inventory.MaxAmount 60
+	Inventory.MaxAmount 6000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 60
 	Inventory.Icon "NULL"
@@ -1425,7 +1425,7 @@ ACTOR AutocannonAmmo : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 100
-	Inventory.MaxAmount 1000
+	Inventory.MaxAmount 100000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 1000
 	Inventory.Icon "NULL"
@@ -1442,7 +1442,7 @@ ACTOR MechMOrtarAmmo : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 2
-	Inventory.MaxAmount 20
+	Inventory.MaxAmount 2000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 20
 	Inventory.Icon "NULL"
@@ -1459,7 +1459,7 @@ ACTOR HelicopterRocketAmmo : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 10
-	Inventory.MaxAmount 100
+	Inventory.MaxAmount 10000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 100
 	Inventory.Icon "NULL"
@@ -1476,7 +1476,7 @@ ACTOR HelicopterMissileAmmo : Ammo
 	Game Doom
 	Inventory.PickupMessage "Picked up a Magazine."
 	Inventory.Amount 5
-	Inventory.MaxAmount 50
+	Inventory.MaxAmount 5000
 	Ammo.BackpackAmount 0
 	Ammo.BackpackMaxAmount 50
 	Inventory.Icon "NULL"

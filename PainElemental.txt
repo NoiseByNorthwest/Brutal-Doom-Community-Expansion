@@ -31,7 +31,6 @@ ACTOR PainElemental1 Replaces PainElemental
 	DeathSound "pain/death"
 	ActiveSound "pain/active"
     BloodType "Brutal_Blood", "SawBlood", "SawBlood"
-	DropItem "DemonStrengthRune" 4
     damagetype Flames
 	DeathHeight 4
 	BurnHeight 0

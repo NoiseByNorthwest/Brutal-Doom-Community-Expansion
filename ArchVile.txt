@@ -38,7 +38,6 @@ ACTOR TheArchvile: Archvile Replaces Archvile
 	+FLOORCLIP
 	DeathHeight 4
 	BurnHeight 0
-	DropItem "DemonStrengthRune", 16
 	SeeSound "vile/sight"
 	PainSound "vile/pain"
 	DeathSound "vile/death"

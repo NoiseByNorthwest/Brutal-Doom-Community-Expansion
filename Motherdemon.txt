@@ -18,7 +18,6 @@ actor Motherdemon 2548
 	painsound "mother/pain"
 	deathsound "mother/death"
 	activesound "mother/active"
-	DropItem "64UnmakerUpgradeSpawner", 32
 
 	Damagefactor "Avoid", 0.0	Damagefactor "BHFTOnBarrel", 0.0	Damagefactor "Blood", 0.0
 	Damagefactor "CancelTeleportFog", 0.0	Damagefactor "CauseWaterSplash", 0.0	DamageFactor "Crush", 10.0
